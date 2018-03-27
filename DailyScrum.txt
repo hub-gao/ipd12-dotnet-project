@@ -1,0 +1,14 @@
+Date : March 27, 2018 
+Anita and Qian
+
+1. What is done:
+ Create Tools: Trello, Scrum, GitHub repository
+ Learn: How to use Unity 3D Platform
+ Finding assets: Textures, Materials
+ Creating game object: ex. cube
+
+2. What to do for future:
+Finishing game Map 
+
+3. Challenges:
+Unity with CSharp
