@@ -12,3 +12,20 @@ Finishing game Map
 
 3. Challenges:
 Unity with CSharp
+
+
+
+Date :March 28,2018
+Anita and Qian
+
+1.What is done
+Practice create Object in Unity 
+create C # script 
+
+
+2. What to do for future:
+Finishing game Map 
+
+3. Challenges:
+Unity with CSharp
+UTiled to make map
