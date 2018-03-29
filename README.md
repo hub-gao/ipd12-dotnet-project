@@ -1,1 +1,0 @@
-# ipd12-dotnet-project

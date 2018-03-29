@@ -19,12 +19,29 @@ Date :March 28,2018
 Anita and Qian
 
 1.What is done
+collada of Mario
+
+
+
+2. What to do for future:
+Finishing game Map 
+
+3. Challenges:
+Unity with CSharp
+UTiled to make map
+
+
+Date :March 29,2018
+Anita and Qian
+
+1.What is done
 Practice create Object in Unity 
 create C # script 
 
 
 2. What to do for future:
 Finishing game Map 
+
 
 3. Challenges:
 Unity with CSharp
