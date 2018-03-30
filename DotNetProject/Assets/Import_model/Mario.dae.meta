@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: ed70e0e77eeef8b49a0eaef1608d8817
+timeCreated: 1522377206
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: eye
+    100004: face
+    100006: glove1
+    100008: glove2
+    100010: hair
+    100012: hat
+    100014: ID100
+    100016: ID106
+    100018: ID127
+    100020: ID150
+    100022: ID158
+    100024: ID166
+    100026: ID174
+    100028: ID18
+    100030: ID197
+    100032: ID213
+    100034: ID234
+    100036: ID240
+    100038: ID246
+    100040: ID252
+    100042: ID26
+    100044: ID34
+    100046: ID42
+    100048: ID48
+    100050: ID54
+    100052: ID60
+    100054: ID66
+    100056: ID72
+    100058: ID80
+    100060: ID88
+    100062: ID94
+    100064: instance_0
+    100066: instance_1
+    100068: instance_2
+    100070: instance_3
+    100072: instance_4
+    100074: instance_5
+    100076: instance_6
+    100078: instance_7
+    100080: instance_8
+    100082: //RootNode
+    100084: pupil1
+    100086: pupil2
+    100088: skp_camera_Last_Saved_SketchUp_View
+    400000: body
+    400002: eye
+    400004: face
+    400006: glove1
+    400008: glove2
+    400010: hair
+    400012: hat
+    400014: ID100
+    400016: ID106
+    400018: ID127
+    400020: ID150
+    400022: ID158
+    400024: ID166
+    400026: ID174
+    400028: ID18
+    400030: ID197
+    400032: ID213
+    400034: ID234
+    400036: ID240
+    400038: ID246
+    400040: ID252
+    400042: ID26
+    400044: ID34
+    400046: ID42
+    400048: ID48
+    400050: ID54
+    400052: ID60
+    400054: ID66
+    400056: ID72
+    400058: ID80
+    400060: ID88
+    400062: ID94
+    400064: instance_0
+    400066: instance_1
+    400068: instance_2
+    400070: instance_3
+    400072: instance_4
+    400074: instance_5
+    400076: instance_6
+    400078: instance_7
+    400080: instance_8
+    400082: //RootNode
+    400084: pupil1
+    400086: pupil2
+    400088: skp_camera_Last_Saved_SketchUp_View
+    2000000: skp_camera_Last_Saved_SketchUp_View
+    2300000: body
+    2300002: eye
+    2300004: face
+    2300006: glove1
+    2300008: glove2
+    2300010: hair
+    2300012: hat
+    2300014: ID100
+    2300016: ID106
+    2300018: ID127
+    2300020: ID150
+    2300022: ID158
+    2300024: ID166
+    2300026: ID174
+    2300028: ID18
+    2300030: ID197
+    2300032: ID213
+    2300034: ID234
+    2300036: ID240
+    2300038: ID246
+    2300040: ID252
+    2300042: ID26
+    2300044: ID34
+    2300046: ID42
+    2300048: ID48
+    2300050: ID54
+    2300052: ID60
+    2300054: ID66
+    2300056: ID72
+    2300058: ID80
+    2300060: ID88
+    2300062: ID94
+    2300064: pupil1
+    2300066: pupil2
+    3300000: body
+    3300002: eye
+    3300004: face
+    3300006: glove1
+    3300008: glove2
+    3300010: hair
+    3300012: hat
+    3300014: ID100
+    3300016: ID106
+    3300018: ID127
+    3300020: ID150
+    3300022: ID158
+    3300024: ID166
+    3300026: ID174
+    3300028: ID18
+    3300030: ID197
+    3300032: ID213
+    3300034: ID234
+    3300036: ID240
+    3300038: ID246
+    3300040: ID252
+    3300042: ID26
+    3300044: ID34
+    3300046: ID42
+    3300048: ID48
+    3300050: ID54
+    3300052: ID60
+    3300054: ID66
+    3300056: ID72
+    3300058: ID80
+    3300060: ID88
+    3300062: ID94
+    3300064: pupil1
+    3300066: pupil2
+    4300000: body
+    4300002: ID18
+    4300004: ID26
+    4300006: ID34
+    4300008: ID42
+    4300010: ID48
+    4300012: ID54
+    4300014: ID60
+    4300016: ID66
+    4300018: ID72
+    4300020: ID80
+    4300022: ID88
+    4300024: ID94
+    4300026: ID100
+    4300028: ID106
+    4300030: eye
+    4300032: ID127
+    4300034: face
+    4300036: ID150
+    4300038: ID158
+    4300040: ID166
+    4300042: ID174
+    4300044: glove1
+    4300046: ID197
+    4300048: glove2
+    4300050: ID213
+    4300052: hair
+    4300054: ID234
+    4300056: ID240
+    4300058: ID246
+    4300060: ID252
+    4300062: pupil1
+    4300064: pupil2
+    4300066: hat
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body1
+    second: {fileID: 2100000, guid: 3c691e4fcd21e8045a2d15e24ed1c7ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye1
+    second: {fileID: 2100000, guid: 9eeeeba787434084aaf12775d28a653e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face1
+    second: {fileID: 2100000, guid: 58665fbd2d8e61e4db6a049c56429c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glove1
+    second: {fileID: 2100000, guid: a53f8e932563d56429e527e320bd76ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair1
+    second: {fileID: 2100000, guid: cac58dcef057b244bb77faf24f78431c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hat1
+    second: {fileID: 2100000, guid: 3412376c6bf097e46aa73688fa99516a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 4e8ad80d387610241b77bb19287a34e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pupil1
+    second: {fileID: 2100000, guid: 1e9ecf663cce60643ac54cb7ff3bf191, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
