@@ -13,15 +13,13 @@ Finishing game Map
 3. Challenges:
 Unity with CSharp
 
-
+===========================================
 
 Date :March 28,2018
 Anita and Qian
 
 1.What is done
 collada of Mario
-
-
 
 2. What to do for future:
 Finishing game Map 
@@ -30,6 +28,7 @@ Finishing game Map
 Unity with CSharp
 UTiled to make map
 
+===========================================
 
 Date :March 29,2018
 Anita and Qian
@@ -38,7 +37,6 @@ Anita and Qian
 Practice create Object in Unity 
 create C # script 
 
-
 2. What to do for future:
 Finishing game Map 
 
@@ -46,3 +44,59 @@ Finishing game Map
 3. Challenges:
 Unity with CSharp
 UTiled to make map
+
+===========================================
+
+Date :March 1,2018
+Anita and Qian
+
+1.What is done
+Learned Tiled map editor for 2D and 3D game
+Learned Utiled and importing Tiled maps into Unity
+Learned sketchup
+Created 2D map in Tiled
+
+2. What to do for future:
+How to convert 2D tiled map into 3D in Unity
+Finishing game Map
+
+3. Challenges:
+Creating 3D map in Tiled 
+Move camera with Mario
+Mario movements
+
+===========================================
+
+Date :March 02,2018
+Anita and Qian
+
+1.What is done
+
+Created map in sketchup
+Done 2 maps for 2 levels
+Done camera motions 
+Done some Mario motions: moves, climbes
+
+2. What to do for future:
+Making levels for the game
+Mario jump motion
+
+3. Challenges:
+How to jump 
+How to make lavels
+
+===========================================
+
+Date :March 03,2018
+Anita and Qian
+
+1.What is done
+Done make levels for the game 
+Done Mario jump
+
+2. What to do for future:
+Make audio for the game: music, sound
+creat scripts for some objects in the game for playing rules
+
+3. Challenges:
+
