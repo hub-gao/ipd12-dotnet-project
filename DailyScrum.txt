@@ -100,3 +100,18 @@ creat scripts for some objects in the game for playing rules
 
 3. Challenges:
 
+
+===========================================
+
+Date :March 04,2018
+Anita and Qian
+
+1.What is done
+fix the Physics error
+
+
+2. What to do for future:
+Make audio for the game: music, sound
+creat scripts for some objects in the game for playing rules
+
+3. Challenges:
