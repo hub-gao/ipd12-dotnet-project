@@ -71,7 +71,6 @@ Date :March 02,2018
 Anita and Qian
 
 1.What is done
-
 Created map in sketchup
 Done 2 maps for 2 levels
 Done camera motions 
@@ -91,7 +90,7 @@ Date :March 03,2018
 Anita and Qian
 
 1.What is done
-Done make levels for the game 
+Done make levels for the game
 Done Mario jump
 
 2. What to do for future:
@@ -109,8 +108,9 @@ Date :March 07,2018
 Anita and Qian
 
 1.What is done
-Worked on the map in order to make 
-Done Mario jump
+Worked on the layers of the map for player to jump on them
+Fixed Mario jump issues
+Fixed Camera issues
 
 2. What to do for future:
 Make audio for the game: music, sound
