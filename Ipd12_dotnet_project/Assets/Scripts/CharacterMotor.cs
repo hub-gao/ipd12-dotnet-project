@@ -137,6 +137,9 @@ public class CharacterMotor : MonoBehaviour
             return;
         }
         //The cross product of two vectors results in a third vector which is perpendicular to the two input vectors.
+        //hitInfo direction is up
+        //using the left hand rule to get forward direction
+        //note: transform.forward and transform.right,they have the same value of position, but the direction are different
         forward = Vector3.Cross(hitInfo.normal, -transform.right);
     }
 
@@ -148,6 +151,7 @@ public class CharacterMotor : MonoBehaviour
             groundAngel = 90;
             return;
         }
+        //note: the hitInfo and transform have the same coordinate origin
         groundAngel = Vector3.Angle(hitInfo.normal, transform.forward);
     }
 
@@ -193,42 +197,37 @@ public class CharacterMotor : MonoBehaviour
             && Mathf.Abs(jumpInput) > inputDelay)
         {
             StartCoroutine("SimulateJumping");
-            //jump force = mass * gravity * jump force factor
+            //jump force = mass * gravity * jump force factor... but no smooth 
             //rigidBody.AddForce(Vector3.up * rigidBody.mass * 9.81f * jumpForce, ForceMode.Impulse);
-            //transform.position += Vector3.up * 9.81f * Time.deltaTime;
-            animator.SetBool("isJump", true);
-            isJumping = true;
         }
         else
         {
             if (!isWalking)
             {
-                //stop bouncing
+                //stop bouncing and roatation
                 rigidBody.velocity = Vector3.zero;
-                //stop skating on the ground
                 rigidBody.freezeRotation = true;
             }
-            animator.SetBool("isJump", false);
-            isJumping = false;
         }
     }
     IEnumerator SimulateJumping()
     {
-        float projectile_Velocity = 500f;
         //set dueTime of jump 
-        float dueTime = 0.5f;
+        float dueTime = 40;
 
         float elapse_time = 0;
-
+        animator.SetBool("isJump", true);
+        isJumping = true;
         while (dueTime > elapse_time)
         {
-            //add small force to go up
-            rigidBody.AddForce(Vector3.up
-                * (projectile_Velocity - (9.81f * elapse_time) * Time.deltaTime),
-                ForceMode.Acceleration);
-            elapse_time += Time.deltaTime;
+            elapse_time++;
+            //character final position = (2 * gravity.up - gravity.down) * deltaTime
+            //gravity.down at line 159, the method ApplyGravity() do it 
+            transform.position += Vector3.up * 9.8f * 2 * Time.deltaTime;
             yield return null;
         }
+        animator.SetBool("isJump", false);
+        isJumping = false;
     }
 
     void Turn()
