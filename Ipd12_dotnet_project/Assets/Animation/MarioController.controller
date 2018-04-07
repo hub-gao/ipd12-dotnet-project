@@ -67,6 +67,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: isWalk
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isJump
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102294971251064294}
   m_Solo: 0
@@ -249,7 +252,7 @@ AnimatorStateMachine:
     m_Position: {x: 168, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102197389760257878}
-    m_Position: {x: 276, y: 348, z: 0}
+    m_Position: {x: 312, y: 348, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

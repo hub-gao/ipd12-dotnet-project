@@ -17,7 +17,7 @@ public class CameraMotor : MonoBehaviour
     {
         SetCameraTarget(target);
         lookSoomth = 0.1f;
-        offsetFromTarget = new Vector3(-8, 5, -10);
+        offsetFromTarget = new Vector3(-15, 8, -10);
         xTilt = 10f;
         destination = Vector3.zero;
         //rotateVelocity = 0f;

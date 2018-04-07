@@ -74,9 +74,10 @@ public class CharacterMotor : MonoBehaviour
 
         stability = 3f;
         speed = 15f;
-        jumpForce = 10f;
+        jumpForce = 50f;
         isJumping = false;
         isWalking = false;
+
     }
     void GetInput()
     {
@@ -100,7 +101,7 @@ public class CharacterMotor : MonoBehaviour
         Turn();
         Jump();
     }
-    void FiexdUpdate()
+    void FixedUpdate()
     {
         //stability
         Vector3 predictedUp = Quaternion.AngleAxis(
@@ -158,6 +159,8 @@ public class CharacterMotor : MonoBehaviour
             transform.position += Physics.gravity * Time.deltaTime;
         }
     }
+
+
     private void DrawDebugLines()
     {
         if (!debug) return;
@@ -189,18 +192,44 @@ public class CharacterMotor : MonoBehaviour
             && !isJumping
             && Mathf.Abs(jumpInput) > inputDelay)
         {
-            rigidBody.AddForce(Vector3.up * 15000f);
+            StartCoroutine("SimulateJumping");
+            //jump force = mass * gravity * jump force factor
+            //rigidBody.AddForce(Vector3.up * rigidBody.mass * 9.81f * jumpForce, ForceMode.Impulse);
+            //transform.position += Vector3.up * 9.81f * Time.deltaTime;
             animator.SetBool("isJump", true);
             isJumping = true;
         }
         else
         {
-            if (!isWalking) rigidBody.velocity = Vector3.zero;
+            if (!isWalking)
+            {
+                //stop bouncing
+                rigidBody.velocity = Vector3.zero;
+                //stop skating on the ground
+                rigidBody.freezeRotation = true;
+            }
             animator.SetBool("isJump", false);
             isJumping = false;
         }
     }
+    IEnumerator SimulateJumping()
+    {
+        float projectile_Velocity = 500f;
+        //set dueTime of jump 
+        float dueTime = 0.5f;
 
+        float elapse_time = 0;
+
+        while (dueTime > elapse_time)
+        {
+            //add small force to go up
+            rigidBody.AddForce(Vector3.up
+                * (projectile_Velocity - (9.81f * elapse_time) * Time.deltaTime),
+                ForceMode.Acceleration);
+            elapse_time += Time.deltaTime;
+            yield return null;
+        }
+    }
 
     void Turn()
     {
