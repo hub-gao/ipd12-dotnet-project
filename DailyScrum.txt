@@ -101,7 +101,39 @@ creat scripts for some objects in the game for playing rules
 
 ===========================================
 By mistake the scrum file has been removed from the server. 
-The gap here has been recorded on the removed scrum.
+The gap here has been recorded on the removed scrum. We tried to write it again.
+===========================================
+
+Date :March 04,2018
+Anita and Qian
+
+1.What is done
+fix the Physics error
+
+
+2. What to do for future:
+Make audio for the game: music, sound
+creat scripts for some objects in the game for playing rules
+
+3. Challenges:
+
+===========================================
+
+Date :March 05,2018
+Anita and Qian
+
+1.What is done
+fix:jump bouncing issue
+fix : physics issue
+change the character controller(system use it as keyword) to character motor 
+
+
+2. What to do for future:
+Make audio for the game: music, sound
+creat scripts for some objects in the game for playing rules
+
+3. Challenges:
+
 ===========================================
 
 Date :March 07,2018
