@@ -68,7 +68,7 @@ public class CharacterMotor : MonoBehaviour
         rotateVelocity = 100;
         height = 0.1f;
         heightPadding = 0.15f;
-        maxGroudAngle = 120;
+        maxGroudAngle = 150;
         ground = 1 << 8; //layer the ground at position 8 and set ...0000 1000 0000
         debug = true;
 

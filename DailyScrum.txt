@@ -149,3 +149,19 @@ Make audio for the game: music, sound
 creat scripts for some objects in the game for playing rules
 
 3. Challenges:
+
+===========================================
+
+Date :March 08,2018
+Anita and Qian
+
+1.What is done
+Audio for coins, finish game, theme game
+Level change
+Map collider for World-01
+Menu
+
+2. What to do for future:
+Fix issues for the map, coin score, 
+
+3. Challenges:
