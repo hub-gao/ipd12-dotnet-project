@@ -64,7 +64,7 @@ public class CharacterMotor : MonoBehaviour
         turnInput = 0;
         jumpInput = 0;
         inputDelay = 0.1f;
-        forwardVelocity = 5;
+        forwardVelocity = 7;
         rotateVelocity = 100;
         height = 0.1f;
         heightPadding = 0.15f;
