@@ -226,24 +226,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraMotorLevel1.cs" />
-    <Compile Include="Assets\Scripts\CameraMotorLevel2.cs" />
-    <Compile Include="Assets\Scripts\CharacterMotorLevel1.cs" />
-    <Compile Include="Assets\Scripts\CharacterMotorLevel2.cs" />
-    <Compile Include="Assets\Scripts\CharacterStandingRotatingObject.cs" />
-    <Compile Include="Assets\Scripts\MainManu.cs" />
-    <Compile Include="Assets\Scripts\menu\AwesomeMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\ChangeMusicVolume.cs" />
-    <Compile Include="Assets\Scripts\menu\GameMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\Menu.cs" />
-    <Compile Include="Assets\Scripts\menu\MenuManager.cs" />
-    <Compile Include="Assets\Scripts\menu\OptionsMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\SimpleMenu.cs" />
-    <Compile Include="Assets\Scripts\menu\ThrowSimulation.cs" />
-    <Compile Include="Assets\Scripts\scroe\ScoreCount.cs" />
-    <Compile Include="Assets\Scripts\scroe\ScoreCounter.cs" />
+    <Compile Include="Assets\Scripts\Controller\CameraMotor.cs" />
+    <Compile Include="Assets\Scripts\Controller\CharacterMotor.cs" />
+    <Compile Include="Assets\Scripts\Controller\CharacterStandingRotatingObject.cs" />
+    <Compile Include="Assets\Scripts\View\menu\ChangeMusicVolume.cs" />
+    <Compile Include="Assets\Scripts\View\menu\MainManu.cs" />
+    <Compile Include="Assets\Scripts\View\scroe\ScoreCount.cs" />
+    <Compile Include="Assets\Scripts\View\scroe\ScoreCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
