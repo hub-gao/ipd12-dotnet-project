@@ -162,6 +162,35 @@ Map collider for World-01
 Menu
 
 2. What to do for future:
+Fix issues for the map, coin score, level change, level 2
+
+3. Challenges:
+===========================================
+
+Date :March 09,2018
+Anita and Qian
+
+1.What is done
+Fixed all issues 
+
+2. What to do for future:
+Using Entity Framework for database 
+
+3. Challenges:
+database
+
+===========================================
+
+Date :March 10,2018
+Anita and Qian
+
+1.What is done
+Done camera issue: zooming
+Done exit game issue
+
+2. What to do for future:
 Fix issues for the map, coin score, 
 
 3. Challenges:
+database
+AI in game
