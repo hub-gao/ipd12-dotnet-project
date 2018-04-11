@@ -16,7 +16,7 @@ public class ScoreCounter : MonoBehaviour
         ScoreCount.gScore += 1;
         //string OtherSceneName = "Level-02";
         //SceneManager.LoadScene(OtherSceneName, LoadSceneMode.Additive);
-        if (ScoreCount.gScore==5)
+        if (ScoreCount.gScore==8)
         {
            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

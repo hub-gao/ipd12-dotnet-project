@@ -4700,6 +4700,73 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162206082}
   m_Mesh: {fileID: 4300040, guid: 1d5de96846679044794b87ed716ec4bc, type: 3}
+--- !u!1001 &169694347
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 845645002}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.751625
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.664646
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.433281
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c315fd9e940d595479677022a0a1a3fc, type: 2}
+    - target: {fileID: 100006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+  m_ParentPrefab: {fileID: 100100000, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &169694348 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+  m_PrefabInternal: {fileID: 169694347}
 --- !u!1 &170044885
 GameObject:
   m_ObjectHideFlags: 0
@@ -25569,6 +25636,7 @@ Transform:
   - {fileID: 1358250057}
   - {fileID: 1490481294}
   - {fileID: 1184119870}
+  - {fileID: 169694348}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44403,6 +44471,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1365905689}
   m_Mesh: {fileID: 4301494, guid: 1d5de96846679044794b87ed716ec4bc, type: 3}
+--- !u!1 &1367031419 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 88b45b1e231344a4796efd7d9286b1a5, type: 3}
+  m_PrefabInternal: {fileID: 169694347}
+--- !u!64 &1367031420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1367031419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!1 &1369459081
 GameObject:
   m_ObjectHideFlags: 0
@@ -48543,7 +48629,6 @@ MonoBehaviour:
   target: {fileID: 1184119870}
   lookSoomth: 0
   offsetFromTarget: {x: 0, y: 0, z: 0}
-  xTilt: 0
 --- !u!81 &1490481291
 AudioListener:
   m_ObjectHideFlags: 0

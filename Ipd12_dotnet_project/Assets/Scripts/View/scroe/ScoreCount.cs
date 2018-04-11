@@ -18,6 +18,6 @@ public class ScoreCount : MonoBehaviour
 
         guiStyle.fontSize = 25;
         
-        GUI.Label(new Rect(20, 20, 250, 45), ("Score: " + gScore), guiStyle);
+        GUI.Label(new Rect(20, 20, 250, 45), ("Score: " + gScore +"/8"), guiStyle);
     }
 }
