@@ -228,7 +228,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controller\CameraMotor.cs" />
     <Compile Include="Assets\Scripts\Controller\CharacterMotor.cs" />
-    <Compile Include="Assets\Scripts\Controller\CharacterStandingRotatingObject.cs" />
     <Compile Include="Assets\Scripts\View\menu\ChangeMusicVolume.cs" />
     <Compile Include="Assets\Scripts\View\menu\MainManu.cs" />
     <Compile Include="Assets\Scripts\View\scroe\ScoreCount.cs" />

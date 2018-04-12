@@ -226,8 +226,8 @@ public class CharacterMotor : MonoBehaviour
             //character final position = (2 * gravity.up - gravity.down) * deltaTime
             //gravity.down at line 159, the method ApplyGravity() do it 
             transform.position += Vector3.up * 9.8f * 2 * Time.deltaTime;
-            yield return null;
-        }
+            yield return new WaitForFixedUpdate();
+        } 
         animator.SetBool("isJump", false);
         isJumping = false;
     }
